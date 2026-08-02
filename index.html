@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZENO Blinds & Interiors specializes in premium blinds, curtains, wallpapers, modular interiors, and customized home décor solutions.">
+    <title>ZENO Blinds & Interiors | Premium Home Solutions</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="ZENO Logo" class="header-logo">
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#interiors" class="nav-link">Interior Works</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            
+            <h2 class="fade-up">ZENO Blinds & Interiors</h2>
+            <p class="fade-up delay-1">Premium Blinds &bull; Curtains &bull; Interior Solutions</p>
+            <div class="hero-btns fade-up delay-2">
+                <a href="#products" class="btn btn-primary btn-ripple">Explore Products</a>
+                <a href="#contact" class="btn btn-outline btn-ripple">Contact Us</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Logo / Partners Section -->
+    <section class="logo-section section" style="padding: 60px 0; border-bottom: 1px solid rgba(0,0,0,0.05);">
+        <div class="container">
+            <h4 class="text-center" style="color: var(--text-light); margin-bottom: 40px; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Trusted Partners & Brands</h4>
+            <div class="logo-grid fade-up">
+                <div class="brand-logo"><i class="fab fa-houzz"></i> <span>Houzz</span></div>
+                <div class="brand-logo"><i class="fab fa-envira"></i> <span>Envira</span></div>
+                <div class="brand-logo"><i class="fab fa-modx"></i> <span>MODX</span></div>
+                <div class="brand-logo"><i class="fab fa-empire"></i> <span>Empire</span></div>
+                <div class="brand-logo"><i class="fab fa-studiovinari"></i> <span>Studio</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container about-container">
+            <div class="about-image fade-right">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Zeno Interiors About Us" loading="lazy">
+                <div class="experience-badge">
+                    <span class="number">10+</span>
+                    <span class="text">Years<br>Experience</span>
+                </div>
+            </div>
+            <div class="about-content fade-left">
+                <h4 class="section-subtitle">About Us</h4>
+                <h2 class="section-title">Elevating Your Living Spaces</h2>
+                <p>ZENO Blinds & Interiors specializes in premium blinds, curtains, wallpapers, modular interiors, and customized home décor solutions. We combine modern aesthetics with exceptional craftsmanship to transform homes and commercial spaces into elegant living environments.</p>
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Premium Materials</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Expert Installation</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Modern Designs</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Affordable Pricing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h4 class="section-subtitle">Our Collection</h4>
+                <h2 class="section-title">Premium Products</h2>
+            </div>
+            <div class="products-grid">
+                <!-- Product Cards -->
+                <div class="product-card fade-up">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Zebra Blinds" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Zebra Blinds</h3>
+                        <p>Perfect control of light and privacy with elegant stripes.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-1">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Roman Blinds" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Roman Blinds</h3>
+                        <p>Luxurious fabric folds for a soft, elegant touch.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-2">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Roller Blinds" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Roller Blinds</h3>
+                        <p>Sleek, modern, and highly functional window treatments.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Venetian Blinds" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Venetian Blinds</h3>
+                        <p>Classic aesthetic with precise light filtering options.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-1">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Cloth Curtains" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cloth Curtains</h3>
+                        <p>Bespoke drapery ranging from sheer to blackout.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-2">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1599596639833-2eb22f9801db?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Pleated Curtains" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pleated Curtains</h3>
+                        <p>Structured pleats for a formal, tailored and timeless look.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ripple Curtains" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ripple Curtains</h3>
+                        <p>Smooth, continuous wave-like fabric for a very modern finish.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-1">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Eyelet Curtains" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Eyelet Curtains</h3>
+                        <p>Modern and easy to operate with stylish metal rings.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-2">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1505691938895-1758d7bef51a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PVC Curtains" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>PVC Curtains</h3>
+                        <p>Durable, easy to clean, and perfect for specific functional spaces.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wallpapers" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Wallpapers</h3>
+                        <p>Exquisite patterns and textures to redefine any wall.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-1">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1502005097973-ff51307b22ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mosquito Windows and Doors" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mosquito Windows & Doors</h3>
+                        <p>Premium protection against insects without compromising ventilation.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up delay-2">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aluminium Fabrications" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Aluminium Fabrications</h3>
+                        <p>High-quality, durable aluminium frames and architectural structures.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card fade-up">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interior Solutions" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Interior Solutions</h3>
+                        <p>Complete end-to-end interior design and execution for your space.</p>
+                        <a href="#contact" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interior Works Section -->
+    <section id="interiors" class="section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h4 class="section-subtitle">Portfolio</h4>
+                <h2 class="section-title">Interior Works</h2>
+            </div>
+            <div class="interiors-grid">
+                <div class="interior-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Living Room" loading="lazy">
+                    <div class="interior-overlay">
+                        <h3>Living Room</h3>
+                        <p>Modern luxury spaces</p>
+                    </div>
+                </div>
+                <div class="interior-card fade-up delay-1">
+                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bedroom" loading="lazy">
+                    <div class="interior-overlay">
+                        <h3>Bedroom</h3>
+                        <p>Cozy & serene retreats</p>
+                    </div>
+                </div>
+                <div class="interior-card fade-up delay-2">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Office" loading="lazy">
+                    <div class="interior-overlay">
+                        <h3>Office</h3>
+                        <p>Productive environments</p>
+                    </div>
+                </div>
+                <div class="interior-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kitchen" loading="lazy">
+                    <div class="interior-overlay">
+                        <h3>Kitchen</h3>
+                        <p>Functional & elegant</p>
+                    </div>
+                </div>
+                <div class="interior-card fade-up delay-1">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel" loading="lazy">
+                    <div class="interior-overlay">
+                        <h3>Hotel</h3>
+                        <p>Premium hospitality</p>
+                    </div>
+                </div>
+                <div class="interior-card fade-up delay-2">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Commercial Spaces" loading="lazy">
+                    <div class="interior-overlay">
+                        <h3>Commercial Spaces</h3>
+                        <p>Professional aesthetics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Statistics -->
+    <section class="section stats-section bg-primary text-white">
+        <div class="container">
+            <div class="stats-wrapper">
+                <div class="stat-item fade-up">
+                    <h3 class="counter" data-target="500">0</h3>
+                    <span>+</span>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-item fade-up delay-1">
+                    <h3 class="counter" data-target="300">0</h3>
+                    <span>+</span>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item fade-up delay-2">
+                    <h3 class="counter" data-target="8">0</h3>
+                    <span>+</span>
+                    <p>Product Categories</p>
+                </div>
+                <div class="stat-item fade-up delay-3">
+                    <h3 class="counter" data-target="10">0</h3>
+                    <span>+</span>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+
+            <div class="why-choose-us mt-5">
+                <h2 class="text-center mb-4 fade-up">Why Choose Us</h2>
+                <div class="features-grid">
+                    <div class="feature-box fade-up">
+                        <div class="icon-box"><i class="fas fa-award"></i></div>
+                        <h4>10+ Years Experience</h4>
+                    </div>
+                    <div class="feature-box fade-up delay-1">
+                        <div class="icon-box"><i class="fas fa-star"></i></div>
+                        <h4>Premium Quality Products</h4>
+                    </div>
+                    <div class="feature-box fade-up delay-2">
+                        <div class="icon-box"><i class="fas fa-tools"></i></div>
+                        <h4>Professional Installation</h4>
+                    </div>
+                    <div class="feature-box fade-up">
+                        <div class="icon-box"><i class="fas fa-comments"></i></div>
+                        <h4>Free Consultation</h4>
+                    </div>
+                    <div class="feature-box fade-up delay-1">
+                        <div class="icon-box"><i class="fas fa-tags"></i></div>
+                        <h4>Affordable Pricing</h4>
+                    </div>
+                    <div class="feature-box fade-up delay-2">
+                        <div class="icon-box"><i class="fas fa-shipping-fast"></i></div>
+                        <h4>Fast Service</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="section video-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h4 class="section-subtitle">Showcase</h4>
+                <h2 class="section-title">Video Gallery</h2>
+            </div>
+            <div class="video-grid">
+                <div class="video-card fade-up">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Installation Process">
+                        <div class="play-btn"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3>Installation Process</h3>
+                </div>
+                <div class="video-card fade-up delay-1">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Interior Transformation">
+                        <div class="play-btn"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3>Interior Transformation</h3>
+                </div>
+                <div class="video-card fade-up delay-2">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Product Demonstration">
+                        <div class="play-btn"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3>Product Demonstration</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h4 class="section-subtitle">Inspiration</h4>
+                <h2 class="section-title">Image Gallery</h2>
+            </div>
+            
+            <div class="gallery-filters fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="blinds">Blinds</button>
+                <button class="filter-btn" data-filter="curtains">Curtains</button>
+                <button class="filter-btn" data-filter="interiors">Interiors</button>
+                <button class="filter-btn" data-filter="wallpapers">Wallpapers</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Items will be populated via JS for simplicity, or we can hardcode. Let's hardcode a few for SEO -->
+                <div class="gallery-item blinds fade-up">
+                    <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+                                        <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+
+                                                            <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+
+                                                                                <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+
+                                                                                                    <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+
+                                                                                                                        <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+
+                                                                                                                                            <img src="https://images.unsplash.com/photo-1594918731558-75b9f71c4ac7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+
+                </div>
+                <div class="gallery-item interiors fade-up">
+                    <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+                                        <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+
+                                                            <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+
+                                                                                <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+
+                                                                                                    <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+
+                                                                                                                        <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+
+                </div>
+                <div class="gallery-item curtains fade-up">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Curtains" loading="lazy">
+                </div>
+                <div class="gallery-item wallpapers fade-up">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wallpapers" loading="lazy">
+                </div>
+                <div class="gallery-item blinds fade-up">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+                </div>
+                <div class="gallery-item interiors fade-up">
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interiors" loading="lazy">
+                </div>
+                <div class="gallery-item blinds fade-up">
+                    <img src="https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blinds" loading="lazy">
+                </div>
+                <div class="gallery-item curtains fade-up">
+                    <img src="https://images.unsplash.com/photo-1599596639833-2eb22f9801db?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Curtains" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h4 class="section-subtitle">Reviews</h4>
+                <h2 class="section-title">Customer Testimonials</h2>
+            </div>
+            
+            <div class="testimonial-slider-wrapper fade-up">
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <div class="testimonial-slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"The zebra blinds installed by ZENO transformed my living room completely. The quality is exceptional and the installation was very professional."</p>
+                        <div class="customer-info">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                            <div class="customer-details">
+                                <h4>Sarah Johnson</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Excellent service from start to finish. They helped us choose the perfect curtains and wallpapers for our new office space. Highly recommended!"</p>
+                        <div class="customer-info">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                            <div class="customer-details">
+                                <h4>Michael Chen</h4>
+                                <span>Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Top-notch quality and very reasonable pricing. The team was punctual, and the wooden blinds look incredibly premium. Will definitely hire them again."</p>
+                        <div class="customer-info">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya Sharma">
+                            <div class="customer-details">
+                                <h4>Priya Sharma</h4>
+                                <span>Interior Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h4 class="section-subtitle">Get In Touch</h4>
+                <h2 class="section-title">Contact Us</h2>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-form-container fade-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="tel" id="phone" required placeholder=" ">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-ripple w-100">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container fade-left">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>123 Interior Avenue, Design District, City 40001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919995250270">+91 99952 50270</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@zenoblinds.com">info@zenoblinds.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div class="info-text">
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container mt-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.49258288188!2d77.5873919!3d12.9806085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo footer-logo">
+                        <img src="logo.png" alt="ZENO Logo" class="header-logo">
+                    </a>
+                    <p>Transforming spaces with premium blinds, curtains, and custom interior solutions tailored to your unique style.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#products">Premium Blinds</a></li>
+                        <li><a href="#products">Custom Curtains</a></li>
+                        <li><a href="#interiors">Modular Interiors</a></li>
+                        <li><a href="#products">Wallpapers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919995250270" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZENO Blinds & Interiors. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-btns">
+        <a href="tel:+919995250270" class="float-btn call-btn" aria-label="Call Us">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://wa.me/919995250270?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20blinds%20and%20interior%20services." target="_blank" class="float-btn whatsapp-btn" aria-label="WhatsApp Us">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
